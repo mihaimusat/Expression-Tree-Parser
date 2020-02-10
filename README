@@ -1,7 +1,7 @@
 Musat Mihai - Robert - 313CB 
 TEMA 3 - Evaluare de expresii
 
-=======================================================================================================================================
+===========================================================================================================================
 
 Pentru implementarea temei, am folosit pe langa structurile si macro-urile implementate in functiile structuri.h si defines.h si o serie de functii care ma ajuta sa evaluez expresiile matematice cu constrangerile date.
 Astfel, prima functie implementata este CitireVariabila in care citesc din fisier structura unei variabile, data de nume si valoare.A doua functie CautareVariabila este cea de cautare a unei variabile dupa nume astfel incat parsarea expresiei si construirea arborelui sa se faca mai usor.O alta functie ajutatatoare este DetNumar prin care eu aflu valoarea unei variabile dupa numele sau.
