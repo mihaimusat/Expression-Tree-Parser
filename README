@@ -1,0 +1,8 @@
+Musat Mihai - Robert - 313CB 
+TEMA 3 - Evaluare de expresii
+
+=======================================================================================================================================
+
+Pentru implementarea temei, am folosit pe langa structurile si macro-urile implementate in functiile structuri.h si defines.h si o serie de functii care ma ajuta sa evaluez expresiile matematice cu constrangerile date.
+Astfel, prima functie implementata este CitireVariabila in care citesc din fisier structura unei variabile, data de nume si valoare.A doua functie CautareVariabila este cea de cautare a unei variabile dupa nume astfel incat parsarea expresiei si construirea arborelui sa se faca mai usor.O alta functie ajutatatoare este DetNumar prin care eu aflu valoarea unei variabile dupa numele sau.
+Functia de constructie a arborelui MakeArb este o abordare recursiva care trateaza fiecare operator in parte, iar daca am o variabila ca input ma foloesc de functia CautareVariabila descrisa mai sus sau daca am o constanta, ma foloesc de functia DetNumar.Functia de evaluare a arborelui este similara acestei functii deoarece am tot 3 cazuri principale : daca am constanta, variabila sau operator, insa trebuie sa am grija la cazurile speciale mentionate si in enunt : radical din numar negativ, impartire la zero sau aparitia in evaluare a unei variabile nedeclarate sau a unei operatii necunoscute, moment in care se opreste evaluarea.Functiile EliberareArbore si EliberareVariabila au rolul de a elibera memoria alocata initial pentru cele 2 structuri.
